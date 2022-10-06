@@ -26,7 +26,7 @@ De hoofdonderzoeksvraag:
 
 ## Why  
 **Deelvragen**  
-Om de hoogfdvraag goed te kunnen beantwoorden heb ik een aantal deelvragen over Kubernetes bedacht.  
+Om de hoofdvraag goed te kunnen beantwoorden heb ik een aantal deelvragen over Kubernetes bedacht.  
 - Wat is het doel van Kubernetes?
 - Hoe is Kubernetes te gebruiken (samen met .NET)?
 - Zijn er andere opties dan Kubernetes?  
