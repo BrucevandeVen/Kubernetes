@@ -10,8 +10,14 @@ Ik ga onderzoeken hoe Kubernetes gebruikt kan worden om software projecten schaa
 - [Kubernetes Commands](https://github.com/BrucevandeVen/Kubernetes/blob/main/Hoe%20is%20Kubernetes%20te%20gebruiken%3F.md#kubernetes-commands)
 
 ### Setup
+Om Kubernetes te kunnen gebruiken moeten er wat voorwerk verricht worden.  
+1. Installeer [Docker Desktop](https://docs.docker.com/desktop/install/windows-install/)
+2. Ga in Docker Desktop naar instellingen en klik op de Kubernetes tab
+3. Vink de checkbox "Enable Kubernetes" aan, nu wordt er een Kubernetes cluster aangemaakt
+4. Als dit klaar is met installeren en opstarten is het mogelijk "kubectl" te gebruiken in de command line
 
 ### Docker
+Om
 
 ### Deployment.yaml
 
