@@ -3,7 +3,7 @@
 ## Inleiding
 
 ## Inhoudsopgave
-- Setup
+- (Setup)[]
 - Docker
 - Deployment.yaml
 - Kubernetes Commands
