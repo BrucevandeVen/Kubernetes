@@ -14,7 +14,9 @@ Om Kubernetes te kunnen gebruiken moeten er wat voorwerk verricht worden.
 1. Installeer [Docker Desktop](https://docs.docker.com/desktop/install/windows-install/)
 2. Ga in Docker Desktop naar instellingen en klik op de Kubernetes tab
 3. Vink de checkbox "Enable Kubernetes" aan, nu wordt er een Kubernetes cluster aangemaakt
-4. Als dit klaar is met installeren en opstarten is het mogelijk "kubectl" te gebruiken in de command line
+4. Als dit klaar is met installeren en opstarten ziet het er zo uit:  
+![image](https://user-images.githubusercontent.com/58031089/203558343-d999734b-4376-4e1a-af8d-eb8cb7734761.png)
+
 
 ### Docker
 Voor mijn prototype heb ik 2 .NET 6 API's gemaakt, deze zet ik op Docker Hub om later te kunnen gebruiken in de Kubernetes omgeving. Vooraf heb ik 2 repositories aangemaakt op Docker Hub, deze namen zijn gelijk aan de image namen.  
