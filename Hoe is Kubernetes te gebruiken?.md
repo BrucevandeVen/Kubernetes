@@ -17,7 +17,11 @@ Om Kubernetes te kunnen gebruiken moeten er wat voorwerk verricht worden.
 4. Als dit klaar is met installeren en opstarten is het mogelijk "kubectl" te gebruiken in de command line
 
 ### Docker
-Om
+Voor mijn prototype heb ik 2 .NET 6 API's gemaakt, deze zet ik op Docker Hub om later te kunnen gebruiken in de Kubernetes omgeving.  
+Vooraf heb ik 2 repositories aangemaakt op Docker Hub, deze namen zijn gelijk aan de image namen.
+Commands:  
+1. docker build -t [Docker gebruikersnaam]/[image naam] .
+2. docker push [Docker gebruikersnaam]/[image naam]:[versie naam]
 
 ### Deployment.yaml
 
