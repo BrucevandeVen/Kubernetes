@@ -8,6 +8,7 @@ Ik ga onderzoeken hoe Kubernetes gebruikt kan worden om software projecten schaa
 - [Docker](https://github.com/BrucevandeVen/Kubernetes/blob/main/Hoe%20is%20Kubernetes%20te%20gebruiken%3F.md#docker)
 - [Deployment.yaml](https://github.com/BrucevandeVen/Kubernetes/blob/main/Hoe%20is%20Kubernetes%20te%20gebruiken%3F.md#deploymentyaml)
 - [Kubernetes Commands](https://github.com/BrucevandeVen/Kubernetes/blob/main/Hoe%20is%20Kubernetes%20te%20gebruiken%3F.md#kubernetes-commands)
+- [NodePorts](https://github.com/BrucevandeVen/Kubernetes/edit/main/Hoe%20is%20Kubernetes%20te%20gebruiken%3F.md#nodeports)
 
 ### Setup
 Om Kubernetes te kunnen gebruiken moeten er wat voorwerk verricht worden.  
@@ -85,3 +86,5 @@ kubectl get deployments
 ```
 In Docker Desktop is te zien dat er een Pod en een Container is aangemaakt en draaien:  
 ![image](https://user-images.githubusercontent.com/58031089/203575327-7bd8b1e8-2afb-4c52-8c24-465902f84049.png)
+
+### NodePorts
