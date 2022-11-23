@@ -21,12 +21,39 @@ Om Kubernetes te kunnen gebruiken moeten er wat voorwerk verricht worden.
 Voor mijn prototype heb ik 2 .NET 6 API's gemaakt, deze zet ik op Docker Hub om later te kunnen gebruiken in de Kubernetes omgeving. Vooraf heb ik 2 repositories aangemaakt op Docker Hub, deze namen zijn gelijk aan de image namen.  
   
 Commands:  
-1. docker build -t [Docker gebruikersnaam]/[image naam] .
-2. docker push [Docker gebruikersnaam]/[image naam]:[versie naam]
-  
+```
+docker build -t [Docker gebruikersnaam]/[image naam] .
+```
+```
+docker push [Docker gebruikersnaam]/[image naam]:[versie naam]
+```
 De repositories op Docker Hub:  
 ![image](https://user-images.githubusercontent.com/58031089/203558722-360224cd-8a60-4762-9b50-d92d75bf7dff.png)
 
 ### Deployment.yaml
-
+In de Kubernetes deployment.yaml worden de Docker images weer opgehaald van Docker Hub om te gebruiken in de Kubernet cluster. Als eerste probeer ik 1 pod aan te maken en te deployen in de Kubernetes cluster die 1 API bevat. De yaml file heet collectionapi-depl.yaml.  
+De yaml file:  
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: collectionapi-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: collectionservice
+    template:
+      metadata:
+        labels:
+          app: collectionservice
+      spec:
+        containers:
+          - name: collectionservice
+            image: brucevandeven/collectionapi:latest
+```
+"name:" is de naam van de deployment.  
+"replicas:" staat voor het aantal instanties of pods.  
+"app:" is de naam van de pod.  
+"containers:" zijn de gespicificeerde containers die opgehaald moeten worden op te deployen.
 ### Kubernetes Commands
