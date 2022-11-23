@@ -3,7 +3,7 @@
 ## Inleiding
 
 ## Inhoudsopgave
-- (Setup)[]
+- (Setup)[kubectl config use-context docker-desktop]
 - Docker
 - Deployment.yaml
 - Kubernetes Commands
