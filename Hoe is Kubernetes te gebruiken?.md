@@ -17,13 +17,15 @@ Om Kubernetes te kunnen gebruiken moeten er wat voorwerk verricht worden.
 4. Als dit klaar is met installeren en opstarten ziet het er zo uit:  
 ![image](https://user-images.githubusercontent.com/58031089/203558343-d999734b-4376-4e1a-af8d-eb8cb7734761.png)
 
-
 ### Docker
 Voor mijn prototype heb ik 2 .NET 6 API's gemaakt, deze zet ik op Docker Hub om later te kunnen gebruiken in de Kubernetes omgeving. Vooraf heb ik 2 repositories aangemaakt op Docker Hub, deze namen zijn gelijk aan de image namen.  
   
 Commands:  
 1. docker build -t [Docker gebruikersnaam]/[image naam] .
 2. docker push [Docker gebruikersnaam]/[image naam]:[versie naam]
+  
+De repositories op Docker Hub:  
+![image](https://user-images.githubusercontent.com/58031089/203558722-360224cd-8a60-4762-9b50-d92d75bf7dff.png)
 
 ### Deployment.yaml
 
