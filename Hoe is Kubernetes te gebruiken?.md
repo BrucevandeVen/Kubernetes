@@ -43,14 +43,14 @@ spec:
   selector:
     matchLabels:
       app: collectionservice
-    template:
-      metadata:
-        labels:
-          app: collectionservice
-      spec:
-        containers:
-          - name: collectionservice
-            image: brucevandeven/collectionapi:latest
+  template:
+    metadata:
+      labels:
+        app: collectionservice
+    spec:
+      containers:
+        - name: collectionservice
+          image: brucevandeven/collectionapi:latest
 ```
 "name:" is de naam van de deployment.  
 "replicas:" staat voor het aantal instanties of pods.  
