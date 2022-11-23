@@ -55,9 +55,10 @@ spec:
 "name:" is de naam van de deployment.  
 "replicas:" staat voor het aantal instanties of pods.  
 "app:" is de naam van de pod.  
-"containers:" zijn de gespicificeerde containers die opgehaald moeten worden op te deployen.
+"containers:" zijn de gespicificeerde containers die opgehaald moeten worden op te deployen.  
+
 ### Kubernetes Commands
-Om de deployment.yaml file te kunnen deployen kan de command line gebruikt worden. Als de Setup goed gevolgt is kan de command "kubectl" gebruikt worden, om te testen of kubectl werkt gebruik deze command:  
+Om de deployment.yaml file uit te kunnen voeren kan de command line gebruikt worden. Als de Setup goed gevolgt is kan de command "kubectl" gebruikt worden, om te testen of kubectl werkt gebruik deze command:  
 ```
 kubectl get nodes
 ```
@@ -71,3 +72,16 @@ kubectl config use-context docker-desktop
 ```
 meer informatie hierover op [docs.docker](https://docs.docker.com/desktop/kubernetes/#use-the-kubectl-command).  
   
+Om de yaml file uit te voeren moet er een command worden uitgevoerd, dit is ook het moment om er achter te komen dat er iets mis kan zijn met je yaml file:  
+```
+kubectl apply -f collectionapi-depl.yaml
+```
+Hierna kan er met 2 commands gekeken worden of het heeft gewerkt:  
+```
+kubectl get pods
+```
+```
+kubectl get deployments
+```
+In Docker Desktop is te zien dat er een Pod en een Container is aangemaakt en draaien:  
+![image](https://user-images.githubusercontent.com/58031089/203575327-7bd8b1e8-2afb-4c52-8c24-465902f84049.png)
