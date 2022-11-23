@@ -57,3 +57,17 @@ spec:
 "app:" is de naam van de pod.  
 "containers:" zijn de gespicificeerde containers die opgehaald moeten worden op te deployen.
 ### Kubernetes Commands
+Om de deployment.yaml file te kunnen deployen kan de command line gebruikt worden. Als de Setup goed gevolgt is kan de command "kubectl" gebruikt worden, om te testen of kubectl werkt gebruik deze command:  
+```
+kubectl get nodes
+```
+![image](https://user-images.githubusercontent.com/58031089/203567294-75874dd5-7472-4593-bba2-f78269fe8cf1.png)  
+Als de nodes niet worden weergegeven moet waarschijnlijk de context veranderd worden naar docker-desktop met deze commands:  
+```
+kubectl config get-contexts
+```
+```
+kubectl config use-context docker-desktop
+```
+meer informatie hierover op [docs.docker](https://docs.docker.com/desktop/kubernetes/#use-the-kubectl-command).  
+  
