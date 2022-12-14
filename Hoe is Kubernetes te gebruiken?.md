@@ -86,5 +86,3 @@ kubectl get deployments
 ```
 In Docker Desktop is te zien dat er een Pod en een Container is aangemaakt en draaien:  
 ![image](https://user-images.githubusercontent.com/58031089/203575327-7bd8b1e8-2afb-4c52-8c24-465902f84049.png)
-
-### NodePorts
