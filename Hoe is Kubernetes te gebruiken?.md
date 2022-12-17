@@ -8,7 +8,7 @@ Ik ga onderzoeken hoe Kubernetes gebruikt kan worden om software projecten schaa
 - [Docker](https://github.com/BrucevandeVen/Kubernetes/blob/main/Hoe%20is%20Kubernetes%20te%20gebruiken%3F.md#docker)
 - [Deployment.yaml](https://github.com/BrucevandeVen/Kubernetes/blob/main/Hoe%20is%20Kubernetes%20te%20gebruiken%3F.md#deploymentyaml)
 - [Kubernetes Commands](https://github.com/BrucevandeVen/Kubernetes/blob/main/Hoe%20is%20Kubernetes%20te%20gebruiken%3F.md#kubernetes-commands)
-- [NodePorts](https://github.com/BrucevandeVen/Kubernetes/edit/main/Hoe%20is%20Kubernetes%20te%20gebruiken%3F.md#nodeports)
+- [NodePort, LoadBalancer, Ingress Controller](https://github.com/BrucevandeVen/Kubernetes/edit/main/Hoe%20is%20Kubernetes%20te%20gebruiken%3F.md#nodeport-loadbalancer-and-ingress-controller)
 
 ### Setup  
 Gebruikte DOT Framework Methodes:
