@@ -128,6 +128,7 @@ Er zijn verschillende methodes om te verbinden met de pods binnen een Node:
 - NodePorts
 - LoadBalancer
 - Ingress Controller  
+  
 In een [artikel van Medium](https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0) staat beschreven wat de voordelen en nadelen zijn van verschillende methodes.  
 De NodePorts hebben 3 nadelen:  
 - Kan niet verbonden worden met meerdere services (1 per NodePort)
