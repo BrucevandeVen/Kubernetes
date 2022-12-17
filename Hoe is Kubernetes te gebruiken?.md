@@ -134,4 +134,5 @@ De NodePorts hebben 3 nadelen:
 - Kan niet verbonden worden met meerdere services (1 per NodePort)
 - Kan alleen gebruikt worden op ports 30000-32767
 - Als het Node/VM IP adres veranderd moet er werk verricht worden.  
-Uiteindelijk is de NodePort dus niet de beste optie om je services te openen naar de buitenwereld, eventueel voor test projecten die kort bestaan zou dit wel een goede snelle en goedkope oplossing kunnen zijn
+  
+Uiteindelijk is de NodePort dus niet de beste optie om je services te openen naar de buitenwereld, eventueel voor test projecten die kort bestaan zou dit wel een goede snelle en goedkope oplossing kunnen zijn.
