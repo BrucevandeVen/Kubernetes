@@ -10,7 +10,14 @@ Ik ga onderzoeken hoe Kubernetes gebruikt kan worden om software projecten schaa
 - [Kubernetes Commands](https://github.com/BrucevandeVen/Kubernetes/blob/main/Hoe%20is%20Kubernetes%20te%20gebruiken%3F.md#kubernetes-commands)
 - [NodePorts](https://github.com/BrucevandeVen/Kubernetes/edit/main/Hoe%20is%20Kubernetes%20te%20gebruiken%3F.md#nodeports)
 
-### Setup
+### Setup  
+Gebruikte DOT Framework Methodes:
+- Field, Document Analysis
+- Workshop, Prototyping
+- Library, Literature Study
+- Library, Community research
+- Library, Available Product Analysis  
+  
 Om Kubernetes te kunnen gebruiken moeten er wat voorwerk verricht worden.  
 1. Installeer [Docker Desktop](https://docs.docker.com/desktop/install/windows-install/)
 2. Ga in Docker Desktop naar instellingen en klik op de Kubernetes tab
@@ -18,7 +25,14 @@ Om Kubernetes te kunnen gebruiken moeten er wat voorwerk verricht worden.
 4. Als dit klaar is met installeren en opstarten ziet het er zo uit:  
 ![image](https://user-images.githubusercontent.com/58031089/203558343-d999734b-4376-4e1a-af8d-eb8cb7734761.png)
 
-### Docker
+### Docker  
+Gebruikte DOT Framework Methodes:
+- Field, Document Analysis
+- Workshop, Prototyping
+- Library, Literature Study
+- Library, Community research
+- Library, Available Product Analysis  
+  
 Voor mijn prototype heb ik 2 .NET 6 API's gemaakt, deze zet ik op Docker Hub om later te kunnen gebruiken in de Kubernetes omgeving. Vooraf heb ik 2 repositories aangemaakt op Docker Hub, deze namen zijn gelijk aan de image namen.  
   
 Commands:  
@@ -31,7 +45,14 @@ docker push [Docker gebruikersnaam]/[image naam]:[versie naam]
 De repositories op Docker Hub:  
 ![image](https://user-images.githubusercontent.com/58031089/203558722-360224cd-8a60-4762-9b50-d92d75bf7dff.png)
 
-### Deployment.yaml
+### Deployment.yaml  
+Gebruikte DOT Framework Methodes:
+- Field, Document Analysis
+- Workshop, Prototyping
+- Library, Literature Study
+- Library, Community research
+- Library, Available Product Analysis  
+  
 In de Kubernetes deployment.yaml worden de Docker images weer opgehaald van Docker Hub om te gebruiken in de Kubernet cluster. Als eerste probeer ik 1 pod aan te maken en te deployen in de Kubernetes cluster die 1 API bevat. De yaml file heet collectionapi-depl.yaml.  
 De yaml file:  
 ```yaml
@@ -58,7 +79,14 @@ spec:
 "app:" is de naam van de pod.  
 "containers:" zijn de gespicificeerde containers die opgehaald moeten worden op te deployen.  
 
-### Kubernetes Commands
+### Kubernetes Commands  
+Gebruikte DOT Framework Methodes:
+- Workshop, Prototyping
+- Field, Document Analysis
+- Library, Literature Study
+- Library, Community research
+- Library, Available Product Analysis  
+  
 Om de deployment.yaml file uit te kunnen voeren kan de command line gebruikt worden. Als de Setup goed gevolgt is kan de command "kubectl" gebruikt worden, om te testen of kubectl werkt gebruik deze command:  
 ```
 kubectl get nodes
@@ -85,4 +113,10 @@ kubectl get pods
 kubectl get deployments
 ```
 In Docker Desktop is te zien dat er een Pod en een Container is aangemaakt en draaien:  
-![image](https://user-images.githubusercontent.com/58031089/203575327-7bd8b1e8-2afb-4c52-8c24-465902f84049.png)
+![image](https://user-images.githubusercontent.com/58031089/203575327-7bd8b1e8-2afb-4c52-8c24-465902f84049.png)  
+
+### NodePorts  
+Gebruikte DOT Framework Methodes:  
+- Field, Interview
+- Field, Document Analysis  
+  
