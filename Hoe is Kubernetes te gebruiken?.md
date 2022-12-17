@@ -115,8 +115,22 @@ kubectl get deployments
 In Docker Desktop is te zien dat er een Pod en een Container is aangemaakt en draaien:  
 ![image](https://user-images.githubusercontent.com/58031089/203575327-7bd8b1e8-2afb-4c52-8c24-465902f84049.png)  
 
-### NodePorts  
+### NodePort, LoadBalancer and Ingress Controller
 Gebruikte DOT Framework Methodes:  
 - Field, Interview
-- Field, Document Analysis  
+- Field, Document Analysis
+- Library, Literature Study
+- Library, Community research
+- Library, Available Product Analysis  
   
+NodePorts kunnen worden gebruikt om tijdens de ontwikkelen te verbinden met de verschillende pods binnen een Node, echter is het af te raden te gebruiken en in plaats daarvan een Ingress controller te gebruiken.  
+Er zijn verschillende methodes om te verbinden met de pods binnen een Node:  
+- NodePorts
+- LoadBalancer
+- Ingress Controller  
+In een [artikel van Medium](https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0) staat beschreven wat de voordelen en nadelen zijn van verschillende methodes.  
+De NodePorts hebben 3 nadelen:  
+- Kan niet verbonden worden met meerdere services (1 per NodePort)
+- Kan alleen gebruikt worden op ports 30000-32767
+- Als het Node/VM IP adres veranderd moet er werk verricht worden.  
+Uiteindelijk is de NodePort dus niet de beste optie om je services te openen naar de buitenwereld, eventueel voor test projecten die kort bestaan zou dit wel een goede snelle en goedkope oplossing kunnen zijn
