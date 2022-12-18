@@ -30,3 +30,9 @@ Kubernetes biedt een aantal functies om de cybersecurity te versterken en te hel
 - **Security policies:** Kubernetes biedt ondersteuning voor het instellen van beleid om te bepalen wat wel en niet is toegestaan binnen het platform. Dit kan bijvoorbeeld omvatten het beperken van de resources die een container mag gebruiken, of het verplichten van encrypted netwerkverkeer voor bepaalde workloads.
 
 ## Kubernetes auto-scaling alternatieven
+Er zijn een aantal andere opties op het gebied van container orchestration:  
+- **[Docker Swarm](https://docs.docker.com/engine/swarm/)**
+- **[Apache Mesos](https://mesos.apache.org/getting-started/)**
+- **[OpenShift](https://www.redhat.com/en/technologies/cloud-computing/openshift)**
+- **[Cloud Azure Container Instance](https://azure.microsoft.com/nl-nl/products/container-instances/?&ef_id=CjwKCAiAkfucBhBBEiwAFjbkryou84jWcGN6thWolgsBLbe9m5bk5FW0ZFGuFnIoGIBwrNC7NQDKxxoCEOQQAvD_BwE:G:s&OCID=AIDcmmy4pl1olr_SEM_CjwKCAiAkfucBhBBEiwAFjbkryou84jWcGN6thWolgsBLbe9m5bk5FW0ZFGuFnIoGIBwrNC7NQDKxxoCEOQQAvD_BwE:G:s&gclid=CjwKCAiAkfucBhBBEiwAFjbkryou84jWcGN6thWolgsBLbe9m5bk5FW0ZFGuFnIoGIBwrNC7NQDKxxoCEOQQAvD_BwE)**
+- **[Cloud Amazon Elastic Container Service](https://aws.amazon.com/ecs/)**
