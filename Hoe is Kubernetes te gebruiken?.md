@@ -115,7 +115,7 @@ kubectl get deployments
 In Docker Desktop is te zien dat er een Pod en een Container is aangemaakt en draaien:  
 ![image](https://user-images.githubusercontent.com/58031089/203575327-7bd8b1e8-2afb-4c52-8c24-465902f84049.png)  
 
-### NodePort, LoadBalancer and Ingress Controller
+### Cluster Access
 Gebruikte DOT Framework Methodes:  
 - Field, Interview
 - Field, Document Analysis
@@ -134,5 +134,8 @@ De NodePorts hebben 3 nadelen:
 - Kan niet verbonden worden met meerdere services (1 per NodePort)
 - Kan alleen gebruikt worden op ports 30000-32767
 - Als het Node/VM IP adres veranderd moet er werk verricht worden.  
+Uiteindelijk is de NodePort dus niet de beste optie om je services te openen naar de buitenwereld, eventueel voor test projecten die kort bestaan zou dit wel een goede snelle en goedkope oplossing kunnen zijn.  
   
-Uiteindelijk is de NodePort dus niet de beste optie om je services te openen naar de buitenwereld, eventueel voor test projecten die kort bestaan zou dit wel een goede snelle en goedkope oplossing kunnen zijn.
+In een [artikel van AVINetworks.com](https://avinetworks.com/glossary/kubernetes-load-balancer/#:~:text=The%20Kubernetes%20load%20balancer%20sends,such%20as%20in%20hosted%20environments.) over de Kubernetes LoadBalancer, wordt uitgebreid beschreven wat de LoadBalancer doet, en dat er veel te configureren is. In de basis verspreid de LoadBalancer de workload(s) over verschillende instanties, zodat 1 instantie niet overbelast wordt. Een voorbeeld van een configuratie kan zijn gericht op het zo min mogelijk instantiëren van nieuwe instanties, dus als een instantie aan zijn capaciteit zit wordt er 1 nieuwe instantie gemaakt voor alle nieuwe workload, zodat elke instantie voor de laatste instantie optimaal wordt gebruitk.
+
+Een Ingress Controller zorgt er voor dat het mogelijk wordt om te verbinden met services binnen je Kubernetes Cluster. Deze moet als een service aangemaakt worden in je cluster. (Bronnen: [Traefik](https://traefik.io/glossary/kubernetes-ingress-and-ingress-controller-101/), [Michael Pratt](https://www.baeldung.com/ops/kubernetes-ingress-vs-load-balancer#:~:text=While%20ingresses%20and%20load%20balancers,route%20to%20a%20single%20service.))
