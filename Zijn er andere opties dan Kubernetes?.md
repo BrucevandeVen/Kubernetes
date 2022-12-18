@@ -16,7 +16,10 @@ Er zijn verschillende strategieën die gebruikt kunnen worden om software schaal
 - **Auto-scaling:** Dit houdt in dat de software automatisch resources (zoals servers of containers) toevoegt of verwijdert op basis van de belasting, om ervoor te zorgen dat de benodigde verwerkingskracht altijd beschikbaar is.
 
 ## Monitoring
+Er zijn verschillende manieren om software te monitoren. Een van de voornaamste is logging, in mijn [onderzoek over logging in .NET](https://github.com/BrucevandeVen/Logging) heb ik onderzocht wat logging is en hoe het geïmplementeerd kan worden in .NET.  
+Logging kan ervoor zorgen dat error's sneller worden opgespoort omdat de applicatie dit logt naar een plek waar dit gemonitort kan worden.  
+Verder zijn er een aantal alternatieven die Kubernetes als auto-scaling tool kunnen vervangen, hier is verderop onderzoek naar gedaan.
 
 ## Cyber Security
 
-## Cloud Services (Azure)
+## Kubernetes Auto-scaling alternatieven
