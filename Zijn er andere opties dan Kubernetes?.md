@@ -21,5 +21,10 @@ Logging kan ervoor zorgen dat error's sneller worden opgespoort omdat de applica
 Verder zijn er een aantal alternatieven die Kubernetes als auto-scaling tool kunnen vervangen, hier is verderop onderzoek naar gedaan.
 
 ## Cyber Security
+Kubernetes biedt een aantal functies om de cybersecurity te versterken en te helpen bij het beveiligen van containers:  
+- **Identity and access management (IAM):** Kubernetes biedt ondersteuning voor IAM om te helpen bij het beveiligen van toegang tot de platformresources. Dit omvat ondersteuning voor het gebruik van verschillende authenticatieproviders, zoals OAuth en OpenID Connect, en het gebruik van rollen-gebaseerde toegangsbeleid (RBAC) om te bepalen welke gebruikers toegang hebben tot welke resources.
+- **Network security:** Kubernetes biedt verschillende manieren om het netwerkverkeer te beveiligen, zoals het gebruik van netwerksegmentatie om te bepalen welke containers toegang hebben tot welke andere containers en het gebruik van encrypted netwerkverkeer om te voorkomen dat gegevens tijdens het transport worden afgeluisterd.
+- **Container security:** Kubernetes biedt ondersteuning voor het beveiligen van containers zelf, zoals het gebruik van image signing om te verifiëren dat containers zijn gemaakt van vertrouwde images, en het gebruik van container runtime security om te voorkomen dat containers ongewenste toegang hebben tot hostresources.
+- **Security policies:** Kubernetes biedt ondersteuning voor het instellen van beleid om te bepalen wat wel en niet is toegestaan binnen het platform. Dit kan bijvoorbeeld omvatten het beperken van de resources die een container mag gebruiken, of het verplichten van encrypted netwerkverkeer voor bepaalde workloads.
 
-## Kubernetes Auto-scaling alternatieven
+## Kubernetes auto-scaling alternatieven
