@@ -46,4 +46,8 @@ Ik ben van plan o.a. de volgende methodes te gebruiken:
 - Library  
 Ik ga bestaande artikelen en documentatie gebruiken om juiste antwoorden voor de vragen te vormen, en tot een juiste implementatie te komen. 
 - Workshop  
-Ik ga een prototype maken met een of meerdere API('s) die in een Docker container draait. 
+Ik ga een prototype maken met een of meerdere API('s) die in een Docker container draait.  
+- Lab  
+Ik ga vragen stellen aan experts om mijn kennis te verbreden over bepaalde onderwerpen.
+- Field  
+Ik ga onderzoeken wat er al gedaan is om niet dezelfde fouten te maken die eerder zijn voorgekomen.
