@@ -36,11 +36,11 @@ Dit onderzoek gaat er voor zorgen dat ik begrijp wat Kubernetes is en dit ook nu
 
 ## How
 DOT Framework heeft 5 methodes om een onderzoek uit te voeren:
-- [Library](https://ictresearchmethods.nl/Category:Library) (onderzoeken wat al gedaan is)
-- [Field](https://ictresearchmethods.nl/Category:Field) (baseer keuzes op end users) 
-- [Workshop](https://ictresearchmethods.nl/Category:Workshop) (prototyping/sketching)
-- [Lab](https://ictresearchmethods.nl/Category:Lab) (testing)
-- [Showroom](https://ictresearchmethods.nl/Category:Showroom) (expert feedback)
+- [Library](https://ictresearchmethods.nl/Category:Library)
+- [Field](https://ictresearchmethods.nl/Category:Field)
+- [Workshop](https://ictresearchmethods.nl/Category:Workshop)
+- [Lab](https://ictresearchmethods.nl/Category:Lab)
+- [Showroom](https://ictresearchmethods.nl/Category:Showroom)
 
 Ik ben van plan o.a. de volgende methodes te gebruiken:  
 - Library  
