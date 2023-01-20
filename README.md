@@ -51,3 +51,6 @@ Ik ga een prototype maken met een of meerdere API('s) die in een Docker containe
 Ik ga vragen stellen aan experts om mijn kennis te verbreden over bepaalde onderwerpen.
 - Field  
 Ik ga onderzoeken wat er al gedaan is om niet dezelfde fouten te maken die eerder zijn voorgekomen.
+
+# Conclusie
+Kubernetes is goed om te gebruiken in combinatie met Docker en .NET projecten om schaalbaarheid toe te voegen en te testen. De learning curve is zeer steil, dit brengt dat het lastig is om te beginnen met de implementatie. Met Artillery kan het Kubernetes Cluster geloadtest worden, dit zorgt er voor dat je de bottlenecks vind in het geteste systeem.
